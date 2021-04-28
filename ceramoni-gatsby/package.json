@@ -12,7 +12,8 @@
     "netlify": "netlify dev",
     "prebuild": "netlify-lambda install",
     "lint": "eslint src --fix",
-    "cypress": "cypress open"
+    "cypress": "cypress open",
+    "test": "jest"
   },
   "dependencies": {
     "babel-plugin-styled-components": "^1.12.0",
