@@ -11,7 +11,7 @@ jobs:
         run: npm ci
       - name: Unit Tests
         run: npm run test --watchAll=false
-      - E2E Tests
+      - name: E2E Tests
         uses: cypress-io/github-action@v2
         with:
           start: npm run start
