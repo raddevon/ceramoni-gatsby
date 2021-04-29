@@ -4778,24 +4778,24 @@ if (false) {} else {
 /***/ }),
 
 /***/ "react-dom/server":
-/*!*********************************************************************************************************!*\
-  !*** external "/home/manach/repos/clients/bencivenga/ceramoni/gatsby/node_modules/react-dom/server.js" ***!
-  \*********************************************************************************************************/
+/*!******************************************************************************************************************!*\
+  !*** external "/home/manach/repos/clients/bencivenga/ceramoni/ceramoni-gatsby/node_modules/react-dom/server.js" ***!
+  \******************************************************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("/home/manach/repos/clients/bencivenga/ceramoni/gatsby/node_modules/react-dom/server.js");;
+module.exports = require("/home/manach/repos/clients/bencivenga/ceramoni/ceramoni-gatsby/node_modules/react-dom/server.js");;
 
 /***/ }),
 
 /***/ "react":
-/*!****************************************************************************************************!*\
-  !*** external "/home/manach/repos/clients/bencivenga/ceramoni/gatsby/node_modules/react/index.js" ***!
-  \****************************************************************************************************/
+/*!*************************************************************************************************************!*\
+  !*** external "/home/manach/repos/clients/bencivenga/ceramoni/ceramoni-gatsby/node_modules/react/index.js" ***!
+  \*************************************************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("/home/manach/repos/clients/bencivenga/ceramoni/gatsby/node_modules/react/index.js");;
+module.exports = require("/home/manach/repos/clients/bencivenga/ceramoni/ceramoni-gatsby/node_modules/react/index.js");;
 
 /***/ })
 
