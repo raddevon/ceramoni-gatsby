@@ -1,0 +1,2 @@
+(self.webpackChunkceramoni_shop=self.webpackChunkceramoni_shop||[]).push([[675],{3418:function(e,n,u){"use strict";u.r(n),u.d(n,{default:function(){return r}});var t=u(7294);function r(){return t.createElement("p",null,"Hey! I'm the Menu page.")}}}]);
+//# sourceMappingURL=component---src-pages-menu-js-f042a7579da065c21f6c.js.map

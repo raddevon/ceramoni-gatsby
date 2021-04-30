@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://ceramoni.shop/./src/pages/roots.js"],"names":["RootsPage"],"mappings":"6KAEe,SAASA,IACtB,OAAO","file":"component---src-pages-roots-js-e3a25079f3c53dda2b9a.js","sourcesContent":["import React from 'react';\n\nexport default function RootsPage() {\n  return <p>Hey! I'm the Roots page.</p>;\n}\n"],"sourceRoot":""}

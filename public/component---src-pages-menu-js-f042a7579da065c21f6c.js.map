@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://ceramoni.shop/./src/pages/menu.js"],"names":["MenuPage"],"mappings":"8KAEe,SAASA,IACtB,OAAO","file":"component---src-pages-menu-js-f042a7579da065c21f6c.js","sourcesContent":["import React from 'react';\n\nexport default function MenuPage() {\n  return <p>Hey! I'm the Menu page.</p>;\n}\n"],"sourceRoot":""}

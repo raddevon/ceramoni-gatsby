@@ -1,0 +1,2 @@
+(self.webpackChunkceramoni_shop=self.webpackChunkceramoni_shop||[]).push([[345],{242:function(e,n,t){"use strict";t.r(n),t.d(n,{default:function(){return r}});var u=t(7294);function r(){return u.createElement("p",null,"Hey! I'm the Roots page.")}}}]);
+//# sourceMappingURL=component---src-pages-roots-js-e3a25079f3c53dda2b9a.js.map

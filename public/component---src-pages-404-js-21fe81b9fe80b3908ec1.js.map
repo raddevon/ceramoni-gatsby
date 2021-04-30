@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://ceramoni.shop/./src/pages/404.js"],"names":["FourOhFourPage"],"mappings":"8KAEe,SAASA,IACtB,OAAO","file":"component---src-pages-404-js-21fe81b9fe80b3908ec1.js","sourcesContent":["import React from 'react';\n\nexport default function FourOhFourPage() {\n  return <p>Sorry! That page doesn't exist.</p>;\n}\n"],"sourceRoot":""}

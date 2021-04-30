@@ -1,0 +1,2 @@
+(self.webpackChunkceramoni_shop=self.webpackChunkceramoni_shop||[]).push([[422],{2557:function(e,n,t){"use strict";t.r(n),t.d(n,{default:function(){return r}});var u=t(7294);function r(){return u.createElement("p",null,"Hey! I'm the Stone Index page.")}}}]);
+//# sourceMappingURL=component---src-pages-stone-index-js-e82f46c98a932e7c4d17.js.map

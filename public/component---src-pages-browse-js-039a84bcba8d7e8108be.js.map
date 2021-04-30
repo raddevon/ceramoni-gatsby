@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://ceramoni.shop/./src/pages/browse.js"],"names":["BrowsePage"],"mappings":"8KAEe,SAASA,IACtB,OAAO","file":"component---src-pages-browse-js-039a84bcba8d7e8108be.js","sourcesContent":["import React from 'react';\n\nexport default function BrowsePage() {\n  return <p>Hey! I'm the Browse page.</p>;\n}\n"],"sourceRoot":""}

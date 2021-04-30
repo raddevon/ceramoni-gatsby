@@ -1,0 +1,2 @@
+(self.webpackChunkceramoni_shop=self.webpackChunkceramoni_shop||[]).push([[293],{423:function(e,n,t){"use strict";t.r(n),t.d(n,{default:function(){return r}});var u=t(7294);function r(){return u.createElement("p",null,"Hey! I'm the Consultations page.")}}}]);
+//# sourceMappingURL=component---src-pages-consultations-js-3e19c7b1c799260583b7.js.map

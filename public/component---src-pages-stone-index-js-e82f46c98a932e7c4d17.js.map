@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://ceramoni.shop/./src/pages/stone-index.js"],"names":["StoneIndexPage"],"mappings":"8KAEe,SAASA,IACtB,OAAO","file":"component---src-pages-stone-index-js-e82f46c98a932e7c4d17.js","sourcesContent":["import React from 'react';\n\nexport default function StoneIndexPage() {\n  return <p>Hey! I'm the Stone Index page.</p>;\n}\n"],"sourceRoot":""}
