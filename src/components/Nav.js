@@ -1,28 +1,45 @@
 import React from 'react';
+import { Link } from 'gatsby';
+import styled from 'styled-components';
+
+const NavStyles = styled.nav`
+  margin-bottom: 3rem;
+  ul {
+    margin-right: 10px;
+    padding: 0;
+    text-align: center;
+    list-style: none;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr auto 1fr 1fr;
+    grid-gap: 2rem;
+    align-items: center;
+    color: var(--light-accent);
+  }
+`;
 
 export default function Nav() {
   return (
     <nav>
-      <ul>
-        <li>
-          <a href="/">Home</a>
-        </li>
-        <li>
-          <a href="/stone-index">Stone Index</a>
-        </li>
-        <li>
-          <a href="/roots">Roots</a>
-        </li>
-        <li>
-          <a href="/browse">Browse</a>
-        </li>
-        <li>
-          <a href="/consultations">Consultations</a>
-        </li>
-        <li>
-          <a href="/menu">Menu</a>
-        </li>
-      </ul>
+      <NavStyles>
+        <ul>
+          <li>
+            <Link to="/stone-index">Stone Index</Link>
+          </li>
+          <li>
+            <Link to="/roots">Roots</Link>
+          </li>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/browse">Browse</Link>
+          </li>
+          <li>
+            <Link to="/consultations">Consultations</Link>
+          </li>
+        </ul>
+      </NavStyles>
     </nav>
   );
 }
