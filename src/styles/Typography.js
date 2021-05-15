@@ -9,14 +9,14 @@ const Typography = createGlobalStyle`
   }
   html {
   font-family: 'Poppins-Regular', arial, sans-serif;
-  color: var(--black);
+  color: var(--taupe);
   }
   h1,h2,h3,h4,h5,h6 {
     font-weight: normal;
     margin: 0;
   }
   a {
-    color: var(--black);
+    color: var(--taupe);
   }
   .center {
     text-align: center;

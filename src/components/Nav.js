@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import styled from 'styled-components';
+import GlobalStyles from '../styles/GlobalStyles';
 
 const NavStyles = styled.nav`
   margin-bottom: 3rem;
@@ -14,7 +15,7 @@ const NavStyles = styled.nav`
     grid-template-columns: 1fr 1fr auto 1fr 1fr;
     grid-gap: 2rem;
     align-items: center;
-    color: var(--light-accent);
+    color: var(--main-brand);
   }
 `;
 
@@ -24,7 +25,7 @@ export default function Nav() {
       <NavStyles>
         <ul>
           <li>
-            <Link to="/stone-index">Stone Index</Link>
+            <Link to="/stone-index">STONE INDEX</Link>
           </li>
           <li>
             <Link to="/roots">Roots</Link>
