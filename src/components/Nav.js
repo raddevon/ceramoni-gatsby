@@ -1,9 +1,8 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import styled from 'styled-components';
-import GlobalStyles from '../styles/GlobalStyles';
 
-const NavStyles = styled.nav`
+const NavStyles = styled.div`
   margin-bottom: 3rem;
   ul {
     margin-right: 10px;
@@ -11,18 +10,29 @@ const NavStyles = styled.nav`
     text-align: center;
     list-style: none;
 
-    display: grid;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* display: grid;
     grid-template-columns: 1fr 1fr auto 1fr 1fr;
     grid-gap: 2rem;
-    align-items: center;
-    color: var(--main-brand);
+    align-items: center; */
+    color: var(--taupe)
   }
+  li {
+    text-align: left: 
+    color: var(--ivory);
+  }
+  /* a {
+    text-align: right;
+    color: var(--ivory);
+  } */
 `;
 
 export default function Nav() {
   return (
-    <nav>
-      <NavStyles>
+    <NavStyles>
+      <nav>
         <ul>
           <li>
             <Link to="/stone-index">STONE INDEX</Link>
@@ -40,7 +50,7 @@ export default function Nav() {
             <Link to="/consultations">Consultations</Link>
           </li>
         </ul>
-      </NavStyles>
-    </nav>
+      </nav>
+    </NavStyles>
   );
 }

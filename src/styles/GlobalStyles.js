@@ -15,12 +15,14 @@ const GlobalStyles = createGlobalStyle`
   }
   body {
     font-size: 2rem;
-    color: var(--black);
+    color: var(--dark-shades);
   }
   a {
     text-decoration: none;
-    color: --dark-shades;
-
+    color: --taupe;
+  }
+  link {
+    color: var(--taupe);
   }
 `;
 
