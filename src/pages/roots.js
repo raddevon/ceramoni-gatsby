@@ -1,26 +1,12 @@
 import React from 'react';
 import Layout from '../components/Layout';
-import styled from 'styled-components';
-
-export const RootsPageGrid = styled.div`
-  display: grid;
-  grid-template-columns: 1fr [middle] 1fr;
-  grid-template-rows: 10% 1fr;
-`;
-
-export const RootsMain = styled.main`
-  grid-column: 1 / [middle];
-`;
-
-export const RootsImage = styled.div`
-  grid-column: [middle] / 3;
-`;
+import { RootsPageGrid, RootsMain, RootsImage } from '../styles/Grids';
 
 export default function RootsPage() {
   return (
     <Layout>
       <RootsPageGrid>
-        <main>
+        <RootsMain>
           <h2>ROOTS</h2>
           <p>I AM</p>
           <p>
@@ -64,7 +50,7 @@ export default function RootsPage() {
             to help, to give, to play, to pray, and I'm grateful to those that
             have let me share their manifestations.{' '}
           </p>
-        </main>
+        </RootsMain>
         <RootsImage>IMAGE HERE</RootsImage>
       </RootsPageGrid>
     </Layout>
