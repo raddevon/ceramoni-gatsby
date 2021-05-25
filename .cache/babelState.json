@@ -7,9 +7,18 @@
           "options": {}
         },
         {
-          "name": "/home/manach/repos/clients/bencivenga/ceramoni/ceramoni-gatsby/node_modules/gatsby-plugin-image/dist/babel-plugin-parse-static-images.js",
+          "name": "babel-plugin-styled-components",
+          "stage": "develop",
           "options": {
-            "cacheDir": "/home/manach/repos/clients/bencivenga/ceramoni/ceramoni-gatsby/.cache/caches/gatsby-plugin-image"
+            "plugins": [],
+            "displayName": true,
+            "fileName": true,
+            "minify": true,
+            "namespace": "",
+            "transpileTemplateLiterals": true,
+            "topLevelImportPaths": [],
+            "pure": false,
+            "ssr": false
           }
         },
         {
@@ -48,12 +57,6 @@
           "options": {}
         },
         {
-          "name": "/home/manach/repos/clients/bencivenga/ceramoni/ceramoni-gatsby/node_modules/gatsby-plugin-image/dist/babel-plugin-parse-static-images.js",
-          "options": {
-            "cacheDir": "/home/manach/repos/clients/bencivenga/ceramoni/ceramoni-gatsby/.cache/caches/gatsby-plugin-image"
-          }
-        },
-        {
           "name": "/home/manach/repos/clients/bencivenga/ceramoni/ceramoni-gatsby/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
           "options": {}
         },
@@ -64,6 +67,21 @@
         {
           "name": "/home/manach/repos/clients/bencivenga/ceramoni/ceramoni-gatsby/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
           "options": {}
+        },
+        {
+          "name": "babel-plugin-styled-components",
+          "stage": "develop-html",
+          "options": {
+            "plugins": [],
+            "displayName": true,
+            "fileName": true,
+            "minify": true,
+            "namespace": "",
+            "transpileTemplateLiterals": true,
+            "topLevelImportPaths": [],
+            "pure": false,
+            "ssr": false
+          }
         }
       ],
       "presets": [
@@ -89,12 +107,6 @@
           "options": {}
         },
         {
-          "name": "/home/manach/repos/clients/bencivenga/ceramoni/ceramoni-gatsby/node_modules/gatsby-plugin-image/dist/babel-plugin-parse-static-images.js",
-          "options": {
-            "cacheDir": "/home/manach/repos/clients/bencivenga/ceramoni/ceramoni-gatsby/.cache/caches/gatsby-plugin-image"
-          }
-        },
-        {
           "name": "/home/manach/repos/clients/bencivenga/ceramoni/ceramoni-gatsby/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
           "options": {}
         },
@@ -105,6 +117,21 @@
         {
           "name": "/home/manach/repos/clients/bencivenga/ceramoni/ceramoni-gatsby/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
           "options": {}
+        },
+        {
+          "name": "babel-plugin-styled-components",
+          "stage": "build-html",
+          "options": {
+            "plugins": [],
+            "displayName": true,
+            "fileName": true,
+            "minify": true,
+            "namespace": "",
+            "transpileTemplateLiterals": true,
+            "topLevelImportPaths": [],
+            "pure": false,
+            "ssr": true
+          }
         }
       ],
       "presets": [
@@ -130,12 +157,6 @@
           "options": {}
         },
         {
-          "name": "/home/manach/repos/clients/bencivenga/ceramoni/ceramoni-gatsby/node_modules/gatsby-plugin-image/dist/babel-plugin-parse-static-images.js",
-          "options": {
-            "cacheDir": "/home/manach/repos/clients/bencivenga/ceramoni/ceramoni-gatsby/.cache/caches/gatsby-plugin-image"
-          }
-        },
-        {
           "name": "/home/manach/repos/clients/bencivenga/ceramoni/ceramoni-gatsby/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
           "options": {}
         },
@@ -146,6 +167,21 @@
         {
           "name": "/home/manach/repos/clients/bencivenga/ceramoni/ceramoni-gatsby/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
           "options": {}
+        },
+        {
+          "name": "babel-plugin-styled-components",
+          "stage": "build-javascript",
+          "options": {
+            "plugins": [],
+            "displayName": true,
+            "fileName": true,
+            "minify": true,
+            "namespace": "",
+            "transpileTemplateLiterals": true,
+            "topLevelImportPaths": [],
+            "pure": false,
+            "ssr": true
+          }
         }
       ],
       "presets": [

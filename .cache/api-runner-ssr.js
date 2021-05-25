@@ -1,7 +1,11 @@
 var plugins = [{
-      name: 'gatsby-plugin-image',
-      plugin: require('/home/manach/repos/clients/bencivenga/ceramoni/ceramoni-gatsby/node_modules/gatsby-plugin-image/gatsby-ssr'),
-      options: {"plugins":[]},
+      name: 'gatsby-plugin-styled-components',
+      plugin: require('/home/manach/repos/clients/bencivenga/ceramoni/ceramoni-gatsby/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
+      options: {"plugins":[],"displayName":true,"fileName":true,"minify":true,"namespace":"","transpileTemplateLiterals":true,"topLevelImportPaths":[],"pure":false},
+    },{
+      name: 'gatsby-source-sanity',
+      plugin: require('/home/manach/repos/clients/bencivenga/ceramoni/ceramoni-gatsby/node_modules/gatsby-source-sanity/gatsby-ssr'),
+      options: {"plugins":[],"projectId":"nbs3ebc3","dataset":"production","watchMode":true,"token":"skeL2yftpcey4P2R1kKHy51qr4A7Ms2mG295Y5QILAszk0VD0sZA9cYn46v5XLZnp1chYcf1VY3E1VhtBRtobOA9DE09v5gItHfrgtkFZq39XHAIoNh0Tbd5oxNhV3iTWt8LDh985v11fT8hlSxgIfAfIOQiAHVlhfHoRRSbIWtTdf4g7caS"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
