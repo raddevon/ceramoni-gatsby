@@ -8,6 +8,7 @@ export default function StoneIndexPage(props) {
   return (
     <div>
       <Layout>
+        <p>Stone Index</p>
         <StonesList stones={stones} />
       </Layout>
     </div>

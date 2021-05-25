@@ -1,3 +1,4 @@
+import { Link } from 'gatsby';
 import React from 'react';
 
 export default function StonesList({ stones }) {
@@ -8,6 +9,7 @@ export default function StonesList({ stones }) {
         <>
           <p>{stone.name}</p>
           <p>{stone.description}</p>
+          <Link to={`/stone/${stone.slug.current}`}>{stone.name}</Link>
         </>
       ))}
     </>
