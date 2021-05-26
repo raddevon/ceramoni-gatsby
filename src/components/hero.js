@@ -19,7 +19,7 @@ const HeroBkImg = styled.div`
 
 const HeroCTA = styled.div`
   //The link to "Offerings" or whatever else we want as the attention-getter
-  grid-column-end: 4;
+  grid-column-end: 3;
   grid-row-end: 4;
   z-index: 99;
   background-color: var(--light-accent);

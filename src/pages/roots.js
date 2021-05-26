@@ -6,6 +6,7 @@ export default function RootsPage() {
   return (
     <Layout>
       <RootsPageGrid>
+        <RootsImage>IMAGE HERE</RootsImage>
         <RootsMain>
           <h2>ROOTS</h2>
           <p>I AM</p>
@@ -51,7 +52,6 @@ export default function RootsPage() {
             have let me share their manifestations.{' '}
           </p>
         </RootsMain>
-        <RootsImage>IMAGE HERE</RootsImage>
       </RootsPageGrid>
     </Layout>
   );

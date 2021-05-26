@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 import styled from 'styled-components';
 
-const NavStyles = styled.div`
+const NavStyles = styled.nav`
   margin-bottom: 3rem;
   ul {
     margin-right: 10px;
@@ -32,25 +32,23 @@ const NavStyles = styled.div`
 export default function Nav() {
   return (
     <NavStyles>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/stone-index">STONE INDEX</Link>
-          </li>
-          <li>
-            <Link to="/roots">Roots</Link>
-          </li>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/browse">Browse</Link>
-          </li>
-          <li>
-            <Link to="/consultations">Consultations</Link>
-          </li>
-        </ul>
-      </nav>
+      <ul>
+        <li>
+          <Link to="/stone-index">STONE INDEX</Link>
+        </li>
+        <li>
+          <Link to="/roots">Roots</Link>
+        </li>
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          <Link to="/browse">Browse</Link>
+        </li>
+        <li>
+          <Link to="/consultations">Consultations</Link>
+        </li>
+      </ul>
     </NavStyles>
   );
 }

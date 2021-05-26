@@ -1,4 +1,8 @@
 var plugins = [{
+      name: 'gatsby-plugin-image',
+      plugin: require('/home/manach/repos/clients/bencivenga/ceramoni/ceramoni-gatsby/node_modules/gatsby-plugin-image/gatsby-ssr'),
+      options: {"plugins":[]},
+    },{
       name: 'gatsby-plugin-styled-components',
       plugin: require('/home/manach/repos/clients/bencivenga/ceramoni/ceramoni-gatsby/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
       options: {"plugins":[],"displayName":true,"fileName":true,"minify":true,"namespace":"","transpileTemplateLiterals":true,"topLevelImportPaths":[],"pure":false},

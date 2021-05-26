@@ -11,6 +11,7 @@ exports.components = {
   "component---src-pages-index-js": preferDefault(require("/home/manach/repos/clients/bencivenga/ceramoni/ceramoni-gatsby/src/pages/index.js")),
   "component---src-pages-menu-js": preferDefault(require("/home/manach/repos/clients/bencivenga/ceramoni/ceramoni-gatsby/src/pages/menu.js")),
   "component---src-pages-roots-js": preferDefault(require("/home/manach/repos/clients/bencivenga/ceramoni/ceramoni-gatsby/src/pages/roots.js")),
-  "component---src-pages-stone-index-js": preferDefault(require("/home/manach/repos/clients/bencivenga/ceramoni/ceramoni-gatsby/src/pages/stone-index.js"))
+  "component---src-pages-stone-index-js": preferDefault(require("/home/manach/repos/clients/bencivenga/ceramoni/ceramoni-gatsby/src/pages/stone-index.js")),
+  "component---src-templates-item-page-template-js": preferDefault(require("/home/manach/repos/clients/bencivenga/ceramoni/ceramoni-gatsby/src/templates/ItemPageTemplate.js"))
 }
 

@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 import dotenv from 'dotenv';
 
 dotenv.config({ path: '.env' });
@@ -10,6 +11,9 @@ export default {
       'Custom prayer and meditation tools, made with love and intention.',
   },
   plugins: [
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     'gatsby-plugin-styled-components',
     {
       resolve: 'gatsby-source-sanity',

@@ -6,24 +6,29 @@ import StonesList from '../components/StonesList';
 export default function StoneIndexPage(props) {
   const stones = props.data.stones.nodes;
   return (
-    <div>
-      <Layout>
-        <p>Stone Index</p>
-        <StonesList stones={stones} />
-      </Layout>
-    </div>
+    <Layout>
+      <p>Stone Index</p>
+      <StonesList stones={stones} />
+    </Layout>
   );
 }
 
 export const query = graphql`
-  query MyQuery {
+  query StoneQuery {
     stones: allSanityStone {
+      #(sort: { fields: order, order: ASC }) {
       nodes {
-        name
-        description
+        #order
         id
+        name
         slug {
           current
+        }
+        description
+        image {
+          asset {
+            gatsbyImageData
+          }
         }
       }
     }
