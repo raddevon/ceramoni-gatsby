@@ -15,10 +15,11 @@ export default function StoneIndexPage(props) {
 
 export const query = graphql`
   query StoneQuery {
-    stones: allSanityStone {
-      #(sort: { fields: order, order: ASC }) {
+    stones: allSanityStone(
+      sort: { fields: [chakra, name], order: [ASC, DESC] }
+    ) {
       nodes {
-        #order
+        chakra
         id
         name
         slug {

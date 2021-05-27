@@ -14,7 +14,7 @@ export const RootsImage = styled.div`
   grid-column: [2] / 3;
 `;
 
-export const StonesPageGrid = styled.main`
+export const StonesPageGrid = styled.div`
   display: grid;
-  grid-auto-columns: minmax(300px, auto);
+  grid-template-columns: 300px, 300px, 1fr);
 `;

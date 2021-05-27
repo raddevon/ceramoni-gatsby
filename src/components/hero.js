@@ -29,6 +29,7 @@ export default function Hero() {
   return (
     <>
       <HeroGrid>
+        <HeroCTA>TEST</HeroCTA>
         <HeroBkImg>
           <StaticImage
             src="../assets/images/logo-original.jpg"
@@ -37,7 +38,6 @@ export default function Hero() {
             layout="fullWidth"
           />
         </HeroBkImg>
-        <HeroCTA>TEST</HeroCTA>
       </HeroGrid>
     </>
   );
