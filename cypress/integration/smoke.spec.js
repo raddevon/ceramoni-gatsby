@@ -11,8 +11,8 @@ describe('Smoke Test', () => {
     cy.visit('/menu/');
     cy.contains('Menu');
   });
-  it('can view the browse page', () => {
-    cy.visit('/browse/');
+  it('can view the browse [items] page', () => {
+    cy.visit('/items/');
     cy.contains('Browse');
   });
   it('can view the consultations page', () => {
