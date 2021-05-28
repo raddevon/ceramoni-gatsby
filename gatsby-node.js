@@ -7,11 +7,16 @@ async function turnItemsIntoPages({ graphql, actions }) {
   // Query all items
   const { data } = await graphql(`
     query {
-      stones: allSanityStone {
+      items: allSanityItem {
         nodes {
           name
           slug {
             current
+          }
+          image {
+            asset {
+              gatsbyImageData
+            }
           }
         }
       }
@@ -19,11 +24,14 @@ async function turnItemsIntoPages({ graphql, actions }) {
   `);
   console.log(data);
   // Loop over each item and create a page for that item
-  data.stones.nodes.forEach(stone => {
+  data.items.nodes.forEach(item => {
     actions.createPage({
       // What is the URL for the new page? REMEMBER THAT WE'RE GOING TO BE DOING THIS WITH ITEMS NOT STONES
-      path: `item/${stone.slug.current}`,
+      path: `item/${item.slug.current}`,
       component: itemTemplate,
+      context: {
+        slug: item.slug.current,
+      },
     });
   });
 }
